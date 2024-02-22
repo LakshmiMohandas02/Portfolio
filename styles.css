@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.about,
+.contact,
+.skills,
+.hobbies,
+.languages,
+.certificates {
+  background-color: #f9f9f9;
+}
+
+.skills ol,
+.hobbies ol,
+.languages ol,
+.certificates ol {
+  padding-left: 20px;
+}
+
+.skills ol li,
+.hobbies ol li,
+.languages ol li,
+.certificates ol li {
+  margin-bottom: 10px;
+}
+
+.skills ol li::before,
+.hobbies ol li::before,
+.languages ol li::before,
+.certificates ol li::before {
+  content: "•";
+  color: #333;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
